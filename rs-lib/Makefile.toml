@@ -1,0 +1,6 @@
+[tasks.wasm]
+script = [
+  "wasm-pack build"
+]
+
+dependencies = ["build"]

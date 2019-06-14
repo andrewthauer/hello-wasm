@@ -1,0 +1,13 @@
+# os
+.DS_Store
+
+# rust
+target/
+**/*.rs.bk
+
+# wasm-pack
+pkg/
+
+# node
+node_modules
+dist

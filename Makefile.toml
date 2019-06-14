@@ -1,0 +1,6 @@
+[tasks.wasm]
+workspace = false
+script = [
+    "cd rs-lib && cargo make wasm"
+]
+dependencies = ["build"]

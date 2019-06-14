@@ -1,0 +1,8 @@
+[package]
+name = "rs-app"
+version = "0.1.0"
+authors = ["Andrew Thauer <6507159+andrewthauer@users.noreply.github.com>"]
+edition = "2018"
+
+[dependencies]
+rs-lib = { path = '../rs-lib' }
